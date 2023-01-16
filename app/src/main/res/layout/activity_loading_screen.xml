@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".loading_screen"
-    android:background="#000">
+    android:background="@drawable/background">
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView3"
@@ -14,10 +14,10 @@
         android:src="@drawable/loading_gif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865"
+        app:layout_constraintVertical_bias="0.645"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_width="147dp"
         android:layout_height="40dp"
         android:fontFamily="@font/andika"
-        android:text="Loading...."
+        android:text="Loading..."
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
@@ -33,17 +33,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.862" />
-
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_width="411dp"
-        android:layout_height="444dp"
-        android:src="@drawable/vit_logo"
-        app:layout_constraintBottom_toTopOf="@+id/gifImageView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

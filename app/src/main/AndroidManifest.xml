@@ -13,6 +13,9 @@
         android:theme="@style/Theme.VtopBhopal"
         tools:targetApi="31" >
         <activity
+            android:name=".nevegation_bar"
+            android:exported="false" />
+        <activity
             android:name=".mess_menu"
             android:exported="false" >
             <meta-data
