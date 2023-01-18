@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/linkedIn"
+        android:title="LinkedIn"
+        android:icon="@drawable/linkedin"/>
+
+    <item
+        android:id="@+id/github"
+        android:title="GitHub"
+        android:icon="@drawable/github"/>
+
+    <item
+        android:id="@+id/portpholio"
+        android:title="Portpholio"/>
+
+
+</menu>

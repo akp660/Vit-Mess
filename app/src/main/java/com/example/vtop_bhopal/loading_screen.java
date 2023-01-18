@@ -13,14 +13,9 @@ public class loading_screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_screen);
 
-        Intent iHome = new Intent(loading_screen.this,MainActivity.class);
+        Intent iHome = new Intent(loading_screen.this,nevegation_bar.class);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(iHome);
-            }
-        },3500);
+        new Handler().postDelayed(() -> startActivity(iHome),3500);
 
 
     }
