@@ -13,7 +13,7 @@ public class loading_screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loading_screen);
 
-        Intent iHome = new Intent(loading_screen.this,nevegation_bar.class);
+        Intent iHome = new Intent(loading_screen.this,MainActivity.class);
 
         new Handler().postDelayed(() -> startActivity(iHome),3500);
 

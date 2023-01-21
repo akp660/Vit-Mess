@@ -19,10 +19,15 @@ public class Foody extends AppCompatActivity {
         ImageButton imageButton3 = findViewById(R.id.imageButton3);
         imageButton3.setOnClickListener(view -> open());
 
+        ImageButton imageButton4 = findViewById(R.id.imageButton4);
+        imageButton4.setOnClickListener(view -> open());
+
     }
 
     public void open(){
         Intent intent = new Intent(Foody.this, mess_menu.class);
         startActivity(intent);
     }
+
+
 }
