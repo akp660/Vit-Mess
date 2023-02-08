@@ -25,7 +25,7 @@ public class Foody extends AppCompatActivity {
     }
 
     public void open(){
-        Intent intent = new Intent(Foody.this, mess_menu.class);
+        Intent intent = new Intent(Foody.this, list_view.class);
         startActivity(intent);
     }
 

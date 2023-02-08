@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET">  </uses-permission>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +14,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VtopBhopal"
         tools:targetApi="31">
+        <activity
+            android:name=".sun_menu"
+            android:exported="false" />
+        <activity
+            android:name=".sat_menu"
+            android:exported="false" />
+        <activity
+            android:name=".fri_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Thu_menu"
+            android:exported="false" />
+        <activity
+            android:name=".wed_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Tue_menu"
+            android:exported="false" />
+        <activity
+            android:name=".list_view"
+            android:exported="false" />
         <activity
             android:name=".web_view"
             android:exported="false" />

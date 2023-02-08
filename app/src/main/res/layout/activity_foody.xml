@@ -61,7 +61,7 @@
         app:layout_constraintVertical_bias="0.758"
         app:srcCompat="@drawable/girl" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextPersonName"
         android:layout_width="132dp"
         android:layout_height="59dp"
@@ -79,7 +79,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageButton3"
         app:layout_constraintVertical_bias="0.65" />
 
-    <EditText
+    <TextView
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="130dp"
         android:layout_height="60dp"
