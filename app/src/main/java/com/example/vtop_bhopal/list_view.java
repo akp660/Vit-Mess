@@ -1,12 +1,16 @@
 package com.example.vtop_bhopal;
 
+import static android.app.ProgressDialog.show;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -84,37 +88,15 @@ public class list_view extends AppCompatActivity {
         ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(getApplicationContext(), android.R.layout.simple_spinner_dropdown_item, arrDays);
         spinner.setAdapter(spinnerAdapter);
 
-        spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+        Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                if (i==0){
-                    Intent intent = new Intent(list_view.this, mess_menu.class);
-                    startActivity(intent);
-                }
-                else if (i==1){
-                    Intent intent = new Intent(list_view.this, Tue_menu.class);
-                    startActivity(intent);
-                }
-                else if (i==2){
-                    Intent intent = new Intent(list_view.this, wed_menu.class);
-                    startActivity(intent);
-                }
-                else if (i==3){
-                    Intent intent = new Intent(list_view.this, Thu_menu.class);
-                    startActivity(intent);
-                }
-                else if (i==4){
-                    Intent intent = new Intent(list_view.this, fri_menu.class);
-                    startActivity(intent);
-                }
-                else if (i==5){
-                    Intent intent = new Intent(list_view.this, sat_menu.class);
-                    startActivity(intent);
-                }
-                else if (i==6){
-                    Intent intent = new Intent(list_view.this, sun_menu.class);
-                    startActivity(intent);
-                }
+            public void onClick(View view) {
+                String item = spinner.getSelectedItem().toString();
+                Intent intent = new Intent(list_view.this, sat_menu.class);
+                startActivity(intent);
             }
         });
 
