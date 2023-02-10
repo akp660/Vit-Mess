@@ -98,9 +98,33 @@ public class list_view extends AppCompatActivity {
             public void onClick(View view) {
                 String item = spinner.getSelectedItem().toString();
                 Log.d("dsf -",item );
-                Toast.makeText(list_view.this, "-----------"+item, Toast.LENGTH_SHORT).show();
                 if(item.equals("Monday")){
                     Intent intent = new Intent(list_view.this, mess_menu.class);
+                    startActivity(intent);
+                    return;
+                }
+                if(item.equals("Tuesday")){
+                    Intent intent = new Intent(list_view.this, Tue_menu.class);
+                    startActivity(intent);
+                    return;
+                }
+                if(item.equals("Wednesday")){
+                    Intent intent = new Intent(list_view.this, wed_menu.class);
+                    startActivity(intent);
+                    return;
+                }
+                if(item.equals("Thursday")){
+                    Intent intent = new Intent(list_view.this, Thu_menu.class);
+                    startActivity(intent);
+                    return;
+                }
+                if(item.equals("Friday")){
+                    Intent intent = new Intent(list_view.this, fri_menu.class);
+                    startActivity(intent);
+                    return;
+                }
+                if(item.equals("Saturday")){
+                    Intent intent = new Intent(list_view.this, sat_menu.class);
                     startActivity(intent);
                     return;
                 }

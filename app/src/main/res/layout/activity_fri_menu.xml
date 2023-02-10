@@ -80,7 +80,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Idli, Vada, Sambhar, Banana, Bread, Butter, Jam, "
+                        android:text="Plane/Carrot/Tomato Uthappam, Bread, Butter, Jam, "
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -147,7 +147,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Phulka, Dal Fry, Panneer Butter Masala,White Rice "
+                        android:text="Plane Briyani, Veg Aviyal, Chapathi, Plane Rice,  "
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -158,7 +158,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Sambar, Rasam, Wheel Chips, Salad."
+                        android:text="Rajma Masala, Brinjal Kuzhambu, Fryums."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -215,7 +215,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Vada Paav , Bonda / Onion Pakoda,"
+                        android:text="Dhokla, Sauce,"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
@@ -282,7 +282,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="Phulka, Dosa, Sambar, Chana Masala, Dal Fry,"
+                        android:text="Chapati, Rice, Dal Tadka,"
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp"/>
@@ -293,7 +293,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="0dp"
                         android:fontFamily="@font/andika"
-                        android:text="White Rice, Gulabjamun"
+                        android:text="Paneer Do Pyaza/ Chicken Curry."
                         android:textAlignment="center"
                         android:textColor="#000000"
                         android:textSize="14sp" />
