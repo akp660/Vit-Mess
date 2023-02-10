@@ -4,6 +4,7 @@ import static android.app.ProgressDialog.show;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class list_view extends AppCompatActivity {
    // ListView listView;
@@ -95,8 +97,19 @@ public class list_view extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String item = spinner.getSelectedItem().toString();
-                Intent intent = new Intent(list_view.this, sat_menu.class);
-                startActivity(intent);
+                Log.d("dsf -",item );
+                Toast.makeText(list_view.this, "-----------"+item, Toast.LENGTH_SHORT).show();
+                if(item.equals("Monday")){
+                    Intent intent = new Intent(list_view.this, mess_menu.class);
+                    startActivity(intent);
+                    return;
+                }
+                if(item.equals("Sunday")){
+                    Intent intent = new Intent(list_view.this, sun_menu.class);
+                    startActivity(intent);
+                    return;
+                }
+
             }
         });
 
