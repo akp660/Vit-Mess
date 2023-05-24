@@ -19,7 +19,8 @@
     <include
         layout="@layout/activity_main"
         android:layout_width="match_parent"
-        android:layout_heght="match_parent" />
+        android:layout_heght="match_parent"
+        android:layout_height="TODO" />
 
 
 

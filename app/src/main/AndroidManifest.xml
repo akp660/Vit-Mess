@@ -15,6 +15,9 @@
         android:theme="@style/Theme.VtopBhopal"
         tools:targetApi="31">
         <activity
+            android:name=".mon_girl"
+            android:exported="false" />
+        <activity
             android:name=".sun_menu"
             android:exported="false" />
         <activity
