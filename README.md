@@ -1,7 +1,5 @@
 # VIT-Mess
 
-![MasterHead](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZiN3bQQ4calvOWU_sTfDqaTftuVlNig8A8AHX4VZ6AnaHCvOyyBzdoLn0J9euNrushfH58XYyNeO1OrWX0nCSM9ObtV7iXrnki6pNAi2KMA_g3oOKnaqQ73iw5spz4Yxh0PSYCwgMbJrYwaBdaRdLXmu7E3NqgrY7Gt0JIMx5TBON7aetYnQT5YfY/s1600/Group%202608045%20%281%29.png)
-
 ## How to Use the VIT-Mess Android Project
 
 1. **Clone the Repository:**
@@ -38,9 +36,13 @@ This app shows the Mess-Menu of VIT Bhopal and allows you to connect with the VT
 
 Thanks for your help. Kindly help me to make it perfectly so that it can run smoothly.
 
-![WhatsApp Image 2023-05-22 at 11 42 34 PM](https://github.com/akp660/Vit-Mess/assets/72183243/c43118ca-23eb-4d35-b46b-57af52979ef2)
-![WhatsApp Image 2023-05-22 at 11 42 33 PM (1)](https://github.com/akp660/Vit-Mess/assets/72183243/a45cb6be-cf58-4029-9cb2-daab0e39b8d4)
-![WhatsApp Image 2023-05-22 at 11 42 33 PM](https://github.com/akp660/Vit-Mess/assets/72183243/32410dd8-2efc-438f-a22f-abc67106fda8)
-![WhatsApp Image 2023-05-22 at 11 42 32 PM (2)](https://github.com/akp660/Vit-Mess/assets/72183243/7ac51766-469b-411a-ae5c-11b07b83caec)
-![WhatsApp Image 2023-05-22 at 11 42 32 PM (1)](https://github.com/akp660/Vit-Mess/assets/72183243/1f1214df-ee71-414d-955b-682d60d0a8f0)
-![WhatsApp Image 2023-05-22 at 11 42 32 PM (3)](https://github.com/akp660/Vit-Mess/assets/72183243/cd114d6a-a286-45b0-91f1-1abd07de49cf)
+### Screenshots
+
+<div style="overflow-x: scroll; white-space: nowrap;">
+    <img src="https://github.com/akp660/Vit-Mess/assets/72183243/c43118ca-23eb-4d35-b46b-57af52979ef2" alt="WhatsApp Image 2023-05-22 at 11 42 34 PM" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/akp660/Vit-Mess/assets/72183243/a45cb6be-cf58-4029-9cb2-daab0e39b8d4" alt="WhatsApp Image 2023-05-22 at 11 42 33 PM (1)" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/akp660/Vit-Mess/assets/72183243/32410dd8-2efc-438f-a22f-abc67106fda8" alt="WhatsApp Image 2023-05-22 at 11 42 33 PM" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/akp660/Vit-Mess/assets/72183243/7ac51766-469b-411a-ae5c-11b07b83caec" alt="WhatsApp Image 2023-05-22 at 11 42 32 PM (2)" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/akp660/Vit-Mess/assets/72183243/1f1214df-ee71-414d-955b-682d60d0a8f0" alt="WhatsApp Image 2023-05-22 at 11 42 32 PM (1)" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+    <img src="https://github.com/akp660/Vit-Mess/assets/72183243/cd114d6a-a286-45b0-91f1-1abd07de49cf" alt="WhatsApp Image 2023-05-22 at 11 42 32 PM (3)" style="display: inline-block; width: 300px; height: auto;">
+</div>
