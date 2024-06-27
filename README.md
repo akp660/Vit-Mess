@@ -1,6 +1,38 @@
 # Vit-Mess
 
+VIT-Mess
+How to Use the VIT-Mess Android Project
+Clone the Repository:
 
+sh
+Copy code
+git clone https://github.com/your-username/VIT-Mess.git
+cd VIT-Mess
+Open in Android Studio:
+
+Launch Android Studio.
+Select Open an existing project.
+Navigate to the cloned repository and open it.
+Build the Project:
+
+Wait for Android Studio to finish syncing and building the project.
+Ensure all dependencies are installed.
+Run the App:
+
+Connect your Android device or use an emulator.
+Click on the Run button or use Shift + F10.
+View the Menu:
+
+Open the app on your device.
+Navigate through the app to view the daily menu for your hostel mess.
+Customize the Menu:
+
+Modify the menu_data.json file in the assets directory to update the food items.
+Rebuild and run the app to see the changes.
+Report Issues:
+
+If you encounter any issues, please open an issue on the GitHub repository.
+Enjoy using the VIT-Mess App!
 
 
 
