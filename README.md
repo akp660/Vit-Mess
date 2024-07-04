@@ -4,7 +4,7 @@
 
 1. **Clone the Repository:**
     ```sh
-    git clone https://github.com/your-username/VIT-Mess.git
+    git clone https://github.com/akp660/Vit-Mess.git
     cd VIT-Mess
     ```
    
